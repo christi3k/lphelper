@@ -79,6 +79,7 @@ celerybeat-schedule
 .env
 
 # virtualenv
+lph-venv/
 venv/
 ENV/
 
