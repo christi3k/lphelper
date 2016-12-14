@@ -28,6 +28,9 @@ class LphShell(cmd.Cmd):
         else:
             self.get_item(args)
 
+    def do_sort(self, args):
+        'Interactively provide a list of items in a [GROUP] and allow user to move to other groups.'
+
     def do_exit(self, arg):
         return True
 
